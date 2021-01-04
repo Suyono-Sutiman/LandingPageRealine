@@ -9,12 +9,11 @@ import SEO from "../components/seo"
 import About from '../components/about'
 import Devsm from "../components/devsm";
 import Serv from '../components/serv'
-import Chal from '../components/chal'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <Jumbotron fluid className="hero">
+    <Jumbotron fluid className="hero modern">
       <Container>
               <h1 className='dpt' >Digital</h1>
               <h1 className='dpt'>Marketing</h1>
@@ -26,9 +25,6 @@ const IndexPage = () => (
     <About/>
     <Devsm/>
     <Serv/>
-    <Chal/>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">hgdtdgfjhik</Link>
   </Layout>
 )
 

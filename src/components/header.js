@@ -32,9 +32,15 @@ class Navi extends React.Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className='ml-auto'>
-                <Nav.Link>Development</Nav.Link>
-                <Nav.Link>Marketing</Nav.Link>
-                <Nav.Link >SEO</Nav.Link>
+                  <Link to='/web-development/' className='nav-link'>
+                    Development
+                  </Link>
+                  <Link to='/web-development/' className='nav-link'>
+                    Marketing
+                  </Link>
+                  <Link to='/web-development/' className='nav-link'>
+                    SEO
+                  </Link>
                 </Nav>
             </Navbar.Collapse>
             </Container>

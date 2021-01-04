@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 
 function Chal () {
     return (
-        <Container>
+        <Container style={{marginTop:'2rem'}}>
         <Row>
             <Col 
             xs={12}
@@ -21,7 +21,8 @@ function Chal () {
             xs={12}
             md={12}
             style={{marginTop:'-1.5rem', textAlign:'center'}}>
-                <Button variant="warning" style={{border:'3px solid #fff'}} >CONTACT US</Button>
+                <Button variant="warning" style={{border:'3px solid #fff'}} 
+                href='https:wa.me/6281219013721'>CONTACT US</Button>
             </Col>
         </Row>
         </Container>

@@ -1,6 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navi from "./header"
 import Row from 'react-bootstrap/Row'
@@ -11,6 +11,7 @@ import {FaFacebookSquare} from 'react-icons/fa'
 import {FaTwitterSquare} from 'react-icons/fa'
 import {FaWhatsappSquare,} from 'react-icons/fa'
 import {FaCopyright} from 'react-icons/fa'
+import Chal from './chal'
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -31,6 +32,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         
         <footer>
+          <Chal/>
         <Container style={{marginTop:'2rem'}} >
             <Row>
                 <Col xs={1} md={1} style={{background:'#ffba00'}} ></Col>
@@ -63,7 +65,7 @@ const Layout = ({ children }) => {
                                 </Col>
                                 <Col>
                                 | Ask As Here<br/>
-                                <a href='#About' style={{color:'#ffba00'}}>WWW.REALINE.MY.ID</a>
+                                <Link to='/' style={{color:'#ffba00'}}>WWW.REALINE.MY.ID</Link>
                                 </Col>
                             </Row>
                         </Col>

@@ -34,14 +34,19 @@ scroll-behavior: smooth;
   visibility: hidden;
 }
 .hero {
-  background-image: url(../images/modern.svg);
-  background-position: right;
-  background-repeat: no-repeat;
   background-color: #242424;
   height: calc(100vh - 56px);
-  background-size: auto;
   display: flex;
   align-items: center;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.modern {
+  background-image: url(../images/modern.svg);
+}
+.dev {
+  background-image: url(../images/undraw_programming_2svr.svg);
 }
 .abu {
   background: #242424;
@@ -52,6 +57,10 @@ scroll-behavior: smooth;
 .dpt {
   font-size: min(max(56px, 10vw),96px);
   font-weight: 500;
+}
+.dpl {
+  font-size: min(max(20px, 10vw),24px);
+  font-weight: 400;
 }
 .tp {
   background-color: #ffba00;

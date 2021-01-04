@@ -6,6 +6,7 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 import {MdSettingsInputComponent} from 'react-icons/md'
 import {MdThumbUp} from 'react-icons/md'
 import {MdFindInPage} from 'react-icons/md'
+import { Link } from 'gatsby'
 
 function Devsm () {
     return (
@@ -18,7 +19,9 @@ function Devsm () {
                         <MdSettingsInputComponent/>
                         </Col>
                         <Col>
-                        <h5 style={{color:'#ffba00'}} >Web Development & Design</h5>
+                        <Link to='/web-development/' style={{color:'#ffba00'}}>
+                        <h5>Web Development & Design</h5>
+                        </Link>
                         <p>Websites are the essence of your online presence. 
                             We will create a functional website that is 
                             customized for your business and drives results. 
