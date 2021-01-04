@@ -1,10 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Jumbotron, Row, Col } from "react-bootstrap"
+import { Container, Jumbotron, Row, Col, Card, Button } from "react-bootstrap"
 import Mess from "../components/for"
+import noone from '../images/noone.png'
+import jjinterprice from '../images/jjinterprice.png'
+import coffee from '../images/coffee.png'
+import foodshop from '../images/foodshop.png'
+import portfolio from '../images/portfolio.png'
 
 const SecondPage = () => (
   <Layout>
@@ -53,6 +57,70 @@ const SecondPage = () => (
             Changes to the site will be published and the website will go live! We will continue to 
             monitor the performance of your site and make adjustments as needed to ensure optimal results. 
             </p>
+          </Col>
+        </Row>
+      </Container>
+      <Container>
+        <Row>
+          <Col xs={12} md={4} style={{marginBottom:'1rem'}}>
+          <Card>
+            <Card.Img variant="top" src={noone}/>
+            <Card.Body>
+              <Card.Text>
+                Noone
+              </Card.Text>
+              <Card.Title>New Website</Card.Title>
+              <Button variant="warning">VIEW PROJECT</Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
+          <Card>
+            <Card.Img variant="top" src={jjinterprice}/>
+            <Card.Body>
+              <Card.Text>
+                JJ Interprice
+              </Card.Text>
+              <Card.Title>New Website</Card.Title>
+              <Button variant="warning">VIEW PROJECT</Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
+          <Card>
+            <Card.Img variant="top" src={coffee}/>
+            <Card.Body>
+              <Card.Text>
+                Coffee Shop
+              </Card.Text>
+              <Card.Title>New Website</Card.Title>
+              <Button variant="warning">VIEW PROJECT</Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
+          <Card>
+            <Card.Img variant="top" src={foodshop}/>
+            <Card.Body>
+              <Card.Text>
+                Foodshop
+              </Card.Text>
+              <Card.Title>New Website</Card.Title>
+              <Button variant="warning">VIEW PROJECT</Button>
+            </Card.Body>
+          </Card>
+          </Col>
+          <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
+          <Card>
+            <Card.Img variant="top" src={portfolio}/>
+            <Card.Body>
+              <Card.Text>
+                Portfolio
+              </Card.Text>
+              <Card.Title>New Website</Card.Title>
+              <Button variant="warning">VIEW PROJECT</Button>
+            </Card.Body>
+          </Card>
           </Col>
         </Row>
       </Container>
