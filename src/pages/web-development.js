@@ -1,9 +1,9 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Container, Jumbotron, Row, Col, Card, Button } from "react-bootstrap"
 import Mess from "../components/for"
+import Testi from "../components/testi"
 import noone from '../images/noone.png'
 import jjinterprice from '../images/jjinterprice.png'
 import coffee from '../images/coffee.png'
@@ -12,7 +12,9 @@ import portfolio from '../images/portfolio.png'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Web Development" description= 'Web Development Agency, Build a website with marketing in mind.' />
+    <SEO 
+        title="Web Development" 
+        description= 'Web Development Agency, Build a website with marketing in mind.' />
     <Jumbotron fluid className="hero dev">
       <Container>
               <h1 className='dpt' >Web</h1>
@@ -25,7 +27,7 @@ const SecondPage = () => (
         <h4>Why Web Development & Design Matters</h4>
         <p>
         With our expertise and knowledge, we are able to build visually appealing, 
-        high-quality WordPress websites that drive conversions to help grow your business. 
+        high-quality websites that drive conversions to help grow your business. 
         We work closely with you to develop a deep understanding of your company’s goals 
         and industry in order to implement elements that will engage your visitors from 
         the moment they come on your site.
@@ -60,11 +62,12 @@ const SecondPage = () => (
           </Col>
         </Row>
       </Container>
+      <Testi/>
       <Container>
         <Row>
           <Col xs={12} md={4} style={{marginBottom:'1rem'}}>
           <Card>
-            <Card.Img variant="top" ></Card.Img>
+            <Card.Img src={noone}/>
             <Card.Body>
               <Card.Text>
                 Noone
@@ -76,7 +79,7 @@ const SecondPage = () => (
           </Col>
           <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
           <Card>
-            <Card.Img variant="top" src={jjinterprice}/>
+            <Card.Img src={jjinterprice}/>
             <Card.Body>
               <Card.Text>
                 JJ Interprice
@@ -88,7 +91,7 @@ const SecondPage = () => (
           </Col>
           <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
           <Card>
-            <Card.Img variant="top" src={coffee}/>
+            <Card.Img src={coffee}/>
             <Card.Body>
               <Card.Text>
                 Coffee Shop
@@ -100,7 +103,7 @@ const SecondPage = () => (
           </Col>
           <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
           <Card>
-            <Card.Img variant="top" src={foodshop}/>
+            <Card.Img src={foodshop}/>
             <Card.Body>
               <Card.Text>
                 Foodshop
@@ -112,7 +115,7 @@ const SecondPage = () => (
           </Col>
           <Col xs={12} md={4}style={{marginBottom:'1rem'}}>
           <Card>
-            <Card.Img variant="top" src={portfolio}/>
+            <Card.Img src={portfolio}/>
             <Card.Body>
               <Card.Text>
                 Portfolio

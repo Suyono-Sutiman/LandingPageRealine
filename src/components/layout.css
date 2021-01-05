@@ -76,3 +76,6 @@ scroll-behavior: smooth;
 .devsm {
   background-color: #242424;
 }
+.carousel-indicators {
+  display: none;
+}
