@@ -11,7 +11,7 @@ function Mess () {
             <Row>
                 <Col xs={12} md={{span:6, offset:3}}>
                 <h4>LET’S START A CONVERSATION</h4>
-                    <Form action="mailto:yonoraphael@gmail.com" method="post" encType="text/plain">
+                    <Form action="mailto:yonoraphael@gmail.com" method="post">
                     <Form.Group controlId="formBasicName">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" placeholder="Your Name" />
