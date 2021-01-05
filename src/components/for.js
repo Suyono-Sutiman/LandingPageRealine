@@ -32,9 +32,11 @@ function Mess () {
                         <Form.Label>Message</Form.Label>
                         <Form.Control as="textarea" rows={3} />
                     </Form.Group>
-                    <Button variant="warning" type="submit" href='https:wa.me/6281219013721' >
+                    <a href='https://wa.me/6281219013721'>
+                    <Button variant="warning" type="submit">
                         Submit
                     </Button>
+                    </a>
                     </Form>
                 </Col>
             </Row>

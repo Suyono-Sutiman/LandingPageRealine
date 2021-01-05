@@ -35,9 +35,11 @@ const Contact = () => (
             </p>
             <h5>Phone</h5>
             <p>
-            Mobile & Whatsapp: <Button variant="warning" size='sm' href='https:wa.me/6281219013721' >
-                        081219013721
+            Mobile & Whatsapp: <a href='https://wa.me/6281219013721'>
+            <Button variant="warning" size='sm'>
+              081219013721
             </Button>
+            </a>
             </p>
           </Col>
         </Row>
@@ -46,9 +48,10 @@ const Contact = () => (
             <h5 style={{color:'#ffba00', marginBottom:'2rem'}} className='dpc'>
             Already know what you want? Get an instant quote for your project!
             </h5>
-            <Button variant="warning" size='lg' href='https:wa.me/6281219013721' >
+            <a href='https://wa.me/6281219013721'>
+            <Button variant="warning" size='lg'>
             GET A QUOTE
-            </Button>
+            </Button></a>
       </Container>
         <Mess/>
     </Jumbotron>

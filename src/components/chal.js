@@ -21,8 +21,11 @@ function Chal () {
             xs={12}
             md={12}
             style={{marginTop:'-1.5rem', textAlign:'center'}}>
-                <Button variant="warning" style={{border:'3px solid #fff'}} 
-                href='https:wa.me/6281219013721'>CONTACT US</Button>
+            <a href='https://wa.me/6281219013721'>
+            <Button variant="warning" style={{border:'3px solid #fff'}}>
+            CONTACT US
+            </Button>
+            </a>
             </Col>
         </Row>
         </Container>
