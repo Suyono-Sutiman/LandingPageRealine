@@ -1,4 +1,5 @@
 {
+  "homepage": "https://suyono-sutiman.github.io/LandingpageRealine/",
   "name": "realine",
   "private": true,
   "description": "Digital Marketing Agency",
@@ -12,6 +13,7 @@
     "gatsby-plugin-offline": "^3.4.0",
     "gatsby-plugin-react-helmet": "^3.4.0",
     "gatsby-plugin-sharp": "^2.8.0",
+    "gatsby-plugin-sitemap": "^2.9.0",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-transformer-sharp": "^2.6.0",
     "prop-types": "^15.7.2",
@@ -38,12 +40,5 @@
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

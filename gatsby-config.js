@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://suyono-sutiman.github.io/LandingpageRealine/`,
     title: `Realine`,
     description: `Web Development & Digital Marketing Agency`,
     author: `Suyono`,
@@ -14,15 +15,16 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `realine web development & digital marketing`,
+        short_name: `realine`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#242424`,
+        theme_color: `#ffba00`,
         display: `minimal-ui`,
         icon: `src/images/realine.png`, // This path is relative to the root of the site.
       },
