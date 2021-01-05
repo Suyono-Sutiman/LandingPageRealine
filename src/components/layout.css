@@ -89,3 +89,6 @@ font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
 .carousel-indicators {
   display: none;
 }
+span {
+  color: #ffba00;
+}

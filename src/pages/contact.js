@@ -21,7 +21,7 @@ const Contact = () => (
           <Col xs={12} md={{span:4, offset:1}}>
             <p>
             Whether you are looking for help with <span>marketing</span>, <span>web development</span>, 
-            <span>search engine optimization</span>, or something else, we would love to help. Send us 
+            <span> search engine optimization</span>, or something else, we would love to help. Send us 
             a message and we will get back to you as soon as possible. 
             </p>
           </Col>
