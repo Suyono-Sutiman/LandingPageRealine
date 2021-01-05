@@ -14,9 +14,6 @@ code {
 font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-html {
-scroll-behavior: smooth;
-}
 .navbar-light .navbar-brand {
   color: #fff;
 }
@@ -48,6 +45,15 @@ scroll-behavior: smooth;
 .dev {
   background-image: url(../images/undraw_programming_2svr.svg);
 }
+.mar {
+  background-image: url(../images/undraw_online_ad_mg4t.svg);
+}
+.seo {
+  background-image: url(../images/undraw_instat_analysis_ajld.svg);
+}
+.cont {
+  background-image: url(../images/undraw_confirmed_81ex.svg);
+}
 .abu {
   background: #242424;
 }
@@ -60,6 +66,10 @@ scroll-behavior: smooth;
 }
 .dpl {
   font-size: min(max(20px, 10vw),24px);
+  font-weight: 400;
+}
+.dpc {
+  font-size: min(max(24px, 10vw),36px);
   font-weight: 400;
 }
 .tp {

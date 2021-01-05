@@ -35,11 +35,14 @@ class Navi extends React.Component {
                   <Link to='/web-development/' className='nav-link'>
                     Development
                   </Link>
-                  <Link to='/web-development/' className='nav-link'>
+                  <Link to='/marketing/' className='nav-link'>
                     Marketing
                   </Link>
-                  <Link to='/web-development/' className='nav-link'>
+                  <Link to='/search-engine-optimization/' className='nav-link'>
                     SEO
+                  </Link>
+                  <Link to='/contact/' className='nav-link'>
+                    Contact
                   </Link>
                 </Nav>
             </Navbar.Collapse>

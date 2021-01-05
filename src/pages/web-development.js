@@ -24,7 +24,7 @@ const SecondPage = () => (
     </Jumbotron>
     <Jumbotron fluid style={{background:'#fff', color:'#000'}}>
       <Container style={{textAlign:'center'}} >
-        <h4>Why Web Development & Design Matters</h4>
+        <h4>WHY WEB DEVELOPMENT & DESIGN MATTERS</h4>
         <p>
         With our expertise and knowledge, we are able to build visually appealing, 
         high-quality websites that drive conversions to help grow your business. 
