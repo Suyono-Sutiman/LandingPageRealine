@@ -12,7 +12,7 @@ import portfolio from '../images/portfolio.png'
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Web Development" />
+    <SEO title="Web Development" description= 'Web Development Agency, Build a website with marketing in mind.' />
     <Jumbotron fluid className="hero dev">
       <Container>
               <h1 className='dpt' >Web</h1>
