@@ -11,7 +11,7 @@ function Mess () {
             <Row>
                 <Col xs={12} md={{span:6, offset:3}}>
                 <h4>LET’S START A CONVERSATION</h4>
-                    <Form >
+                    <Form action="mailto:yonoraphael@gmail.com" method="post" encType="text/plain">
                     <Form.Group controlId="formBasicName">
                         <Form.Label>Name</Form.Label>
                         <Form.Control type="text" placeholder="Your Name" />
@@ -32,11 +32,9 @@ function Mess () {
                         <Form.Label>Message</Form.Label>
                         <Form.Control as="textarea" rows={3} />
                     </Form.Group>
-                    <a href='https://wa.me/6281219013721'>
                     <Button variant="warning" type="submit">
                         Submit
                     </Button>
-                    </a>
                     </Form>
                 </Col>
             </Row>
