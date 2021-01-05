@@ -64,7 +64,7 @@ const SecondPage = () => (
         <Row>
           <Col xs={12} md={4} style={{marginBottom:'1rem'}}>
           <Card>
-            <Card.Img variant="top" src={noone}/>
+            <Card.Img variant="top" ></Card.Img>
             <Card.Body>
               <Card.Text>
                 Noone
