@@ -39,19 +39,19 @@ const Layout = ({ children }) => {
                 <Col >
                     <Row>
                         <Col xs={12} md={6}>
-                            <h5>Address</h5>
+                            <h5>Alamat</h5>
                             <p>
                                 Perumahan Mediterania<br/>
                                 Blok F3/24, Sukamulya<br/>
                                 Cikupa, Tangerang<br/>
                                 Banten<br/>
-                                Phone: 021-5964 5635
+                                Telepon: 021-5964 5635
                             </p>
                         </Col>
                         <Col >
                             <Row>
                                 <Col>
-                                | Find Us Here<br/>
+                                | Temukan kami<br/>
                                 <Row>
                                     <Col xs={2}>
                                     <FaInstagramSquare/></Col>
@@ -64,7 +64,7 @@ const Layout = ({ children }) => {
                                 </Row>
                                 </Col>
                                 <Col>
-                                | Ask As Here<br/>
+                                | Tanya di Sini<br/>
                                 <Link to='/' style={{color:'#ffba00'}}>WWW.REALINE.MY.ID</Link>
                                 </Col>
                             </Row>

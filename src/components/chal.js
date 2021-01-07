@@ -21,9 +21,9 @@ function Chal () {
             xs={12}
             md={12}
             style={{marginTop:'-1.5rem', textAlign:'center'}}>
-            <a href='https://wa.me/6281219013721'>
+            <a href='https://wa.me/6281219013721?text=Nama+Anda%3A+'>
             <Button variant="warning" style={{border:'3px solid #fff'}}>
-            CONTACT US
+            HUBUNGI KAMI
             </Button>
             </a>
             </Col>

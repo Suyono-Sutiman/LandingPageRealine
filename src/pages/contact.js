@@ -9,9 +9,9 @@ const Contact = () => (
     <SEO title="Contact"/>
     <Jumbotron fluid className="hero cont">
       <Container>
-              <h1 className='dpt' >CONTACT US</h1>
+              <h1 className='dpt' >HUBUNGI KAMI</h1>
               <p className='dpl'>
-              We would love to help.
+              Kami akan sangat senang membantu anda.
             </p>
       </Container>
     </Jumbotron>
@@ -20,20 +20,20 @@ const Contact = () => (
         <Row>
           <Col xs={12} md={{span:4, offset:1}}>
             <p>
-            Whether you are looking for help with <span>marketing</span>, <span>web development</span>, 
-            <span> search engine optimization</span>, or something else, we would love to help. Send us 
-            a message and we will get back to you as soon as possible. 
+            Apakah Anda sedang mencari bantuan dengan <span>marketing</span>, <span>web development</span>, 
+            <span> search engine optimization</span>, atau sesuatu yang lain, kami ingin membantu. 
+            Kirim pesan kepada kami dan kami akan segera menghubungi Anda.
             </p>
           </Col>
           <Col xs={12} md={{span:4, offset:2}}>
-            <h5>Address</h5>
+            <h5>Alamat</h5>
             <p>
             Perumahan Mediterania<br/>
             Blok F3/24, Sukamulya<br/>
             Cikupa, Tangerang<br/>
             Banten
             </p>
-            <h5>Phone</h5>
+            <h5>Telepon</h5>
             <p>
             Mobile & Whatsapp: <a href='https://wa.me/6281219013721'>
             <Button variant="warning" size='sm'>
@@ -46,11 +46,11 @@ const Contact = () => (
       </Container>
       <Container style={{textAlign:'center', padding:'2rem', background:'#242424'}}>
             <h5 style={{color:'#ffba00', marginBottom:'2rem'}} className='dpc'>
-            Already know what you want? Get an instant quote for your project!
+            Sudah menemukan apa yang anda inginkan? Dapatkan penawaran harga instan untuk Anda!
             </h5>
-            <a href='https://wa.me/6281219013721'>
+            <a href='https://wa.me/6281219013721?text=Nama+Anda%3A+'>
             <Button variant="warning" size='lg'>
-            GET A QUOTE
+            DAPATKAN PENAWARAN
             </Button></a>
       </Container>
         <Mess/>

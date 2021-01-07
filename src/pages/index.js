@@ -18,7 +18,7 @@ const IndexPage = () => (
               <h1 className='dpt' >Digital</h1>
               <h1 className='dpt'>Marketing</h1>
               <Link to='#Services'>
-              <Button variant='light' size='lg'>READ MORE</Button>
+              <Button variant='light' size='lg'>SELENGKAPNYA</Button>
               </Link>
       </Container>
     </Jumbotron>

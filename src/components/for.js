@@ -10,30 +10,30 @@ function Mess () {
         <Container style={{marginTop:'2rem'}} >
             <Row>
                 <Col xs={12} md={{span:6, offset:3}}>
-                <h4>LET’S START A CONVERSATION</h4>
-                    <Form action="mailto:yonoraphael@gmail.com" method="post">
+                <h4>AYO MULAI PERCAKAPAN</h4>
+                    <Form>
                     <Form.Group controlId="formBasicName">
-                        <Form.Label>Name</Form.Label>
-                        <Form.Control type="text" placeholder="Your Name" />
+                        <Form.Label>Nama</Form.Label>
+                        <Form.Control type="text" placeholder="Nama Anda" />
                     </Form.Group>
 
                     <Form.Group controlId="formBasicEmail">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="Someone@example.com" />
+                        <Form.Label>Alamat Email</Form.Label>
+                        <Form.Control type="email" placeholder="Email Anda" />
                         <Form.Text className="text-muted">
-                        We'll never share your email with anyone else.
+                        Kami tidak akan pernah membagikan email Anda dengan orang lain.
                         </Form.Text>
                     </Form.Group>
                     <Form.Group controlId="formBasicPhone">
-                        <Form.Label>Phone</Form.Label>
-                        <Form.Control type="tel" placeholder="081234567890" />
+                        <Form.Label>Telepon</Form.Label>
+                        <Form.Control type="tel" placeholder="Nomor Telepon Anda" />
                     </Form.Group>
                     <Form.Group controlId="formBasicTextarea">
-                        <Form.Label>Message</Form.Label>
+                        <Form.Label>Pesan</Form.Label>
                         <Form.Control as="textarea" rows={3} />
                     </Form.Group>
                     <Button variant="warning" type="submit">
-                        Submit
+                        Kirim
                     </Button>
                     </Form>
                 </Col>

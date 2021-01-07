@@ -22,10 +22,10 @@ function Devsm () {
                         <Link to='/web-development/' style={{color:'#ffba00'}}>
                         <h5>Web Development & Design</h5>
                         </Link>
-                        <p>Websites are the essence of your online presence. 
-                            We will create a functional website that is 
-                            customized for your business and drives results. 
-                            All of our websites include SEO, and lead generation tools.
+                        <p>Situs web adalah inti dari keberadaan online Anda. 
+                            Kami akan membuat situs web fungsional yang disesuaikan 
+                            untuk bisnis Anda dan mendorong hasil. Semua situs web 
+                            kami menyertakan SEO, dan lead generation tools.
                         </p>
                         </Col>
                     </Row>
@@ -36,10 +36,13 @@ function Devsm () {
                             <MdThumbUp/>
                         </Col>
                         <Col>
-                        <h5 style={{color:'#ffba00'}}>Social Media Marketing</h5>
+                        <Link to='/marketing/' style={{color:'#ffba00'}}>
+                        <h5>Social Media Marketing</h5>
+                        </Link>
                         <p>
-                        We help you with social media management and advertising 
-                        to help you grow your business and reach new clients.
+                        Kami membantu Anda dalam pengelolaan dan periklanan 
+                        media sosial untuk membantu Anda mengembangkan bisnis 
+                        dan menjangkau klien baru.
                         </p>
                         </Col>
                     </Row>
@@ -50,11 +53,13 @@ function Devsm () {
                             <MdFindInPage/>
                         </Col>
                         <Col>
-                        <h5 style={{color:'#ffba00'}}>Search Engine Optimization</h5>
+                        <Link to='/search-engine-optimization/' style={{color:'#ffba00'}}>
+                        <h5 >Search Engine Optimization</h5>
+                        </Link>
                         <p>
-                        We help you improve your Google ranking and increase your organic 
-                        (non-paid) website traffic. SEO is more than just incorporating 
-                        keywords and we can help to optimize all elements.
+                        Kami membantu Anda meningkatkan peringkat Google dan meningkatkan 
+                        lalu lintas situs web organik (tidak berbayar) Anda. SEO lebih dari 
+                        sekadar memasukkan kata kunci dan kami dapat membantu mengoptimalkan semua elemen.
                         </p>
                         </Col>
                     </Row>

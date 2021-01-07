@@ -9,15 +9,15 @@ function About () {
             <Row>
                 <Col xs={{span: 8, offset: 2}} className='tp' >
                 <h4>
-                   DIGITAL MARKETING & WEB DEVELOPMENT AGENCY
+                   DIGITAL MARKETING & WEB DEVELOPMENT
                 </h4>
                 </Col>
                 <Col xs={{span:10,offset:1}} className='bw' >
-                <p>Worldwide we help businesses gain more leads and brand awareness 
-                    by reassessing and improving their online presence. We provide 
-                    unique web design combined with an extensive search engine optimization, 
-                    online advertising and content strategy to ensure business growth.
-                    </p>
+                <p>Kami membantu bisnis mendapatkan lebih banyak prospek dan brand awareness 
+                    dengan menilai kembali dan meningkatkan kehadiran online mereka. 
+                    Kami menyediakan desain web unik yang dikombinasikan dengan pengoptimalan 
+                    search engine (SEO), iklan online, dan strategi konten untuk memastikan pertumbuhan bisnis.
+                </p>
                 </Col>
             </Row>
         </Container>

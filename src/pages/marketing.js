@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { Container, Jumbotron, Row, Col } from "react-bootstrap"
+import { Container, Jumbotron, Row, Col, Button } from "react-bootstrap"
 import Mess from "../components/for"
 import {MdDescription, MdSupervisorAccount, MdTrendingUp} from 'react-icons/md'
 
@@ -16,86 +16,92 @@ const Marketing = () => (
               <h1 className='dpt'>Media</h1>
               <h1 className='dpt'>Marketing</h1>
               <p className='dpl'>
-                Engage with your customers, watch your social following grow, 
-                and increase social media results.
+              Libatkan pelanggan Anda, saksikan pengikut sosial Anda tumbuh, dan tingkatkan hasil media sosial.
             </p>
       </Container>
     </Jumbotron>
     <Jumbotron fluid style={{background:'#fff', color:'#000'}}>
       <Container style={{textAlign:'center'}} >
-        <h4>WHY SOCIAL MEDIA ADVERTISING MATTERS</h4>
+        <h4>MENGAPA PERIKLANAN MEDIA SOSIAL PENTING</h4>
         <p>
-        Paid advertisements on social media are a great way to reach new customers while re-engaging 
-        with existing ones. But only if it’s done effectively! Otherwise, you are throwing money into 
-        a void with a random chance of seeing results. There are many social platforms out there and 
-        the decision of where and how to run advertisements makes it even more complex. With our 
-        knowledge and expertise we can help you create (more) effective social ads. 
+        Iklan berbayar di media sosial adalah cara yang bagus untuk menjangkau pelanggan baru sambil berinteraksi 
+        kembali dengan yang sudah ada. Tetapi hanya jika itu dilakukan secara efektif! Jika tidak, Anda membuang 
+        uang dengan peluang acak untuk melihat hasilnya. Ada banyak platform sosial di luar sana dan keputusan 
+        tentang di mana dan bagaimana menjalankan iklan membuatnya semakin kompleks. Dengan pengetahuan dan 
+        keahlian kami, kami dapat membantu Anda membuat iklan sosial yang (lebih) efektif.
         </p>
         <Row style={{marginTop:'2rem', textAlign:'left'}} >
           <Col xs={12} md={4}>
-            <h5><MdDescription/> Ad Creation</h5>
+            <h5><MdDescription/> Pembuatan Iklan</h5>
             <p>
-            For every social media network we will create unique advertisements. Because, what works 
-            for one network doesn’t necessarily work on others. This will make your ads stand out from 
-            the competition.
+            Untuk setiap jaringan media sosial kami akan membuat iklan unik. Karena, apa yang berfungsi untuk 
+            satu jaringan belum tentu berfungsi di jaringan lain. Ini akan membuat iklan Anda menonjol 
+            dari persaingan.
             </p>
           </Col>
           <Col xs={12} md={4}>
-            <h5><MdSupervisorAccount/> Audience Segmentation</h5>
+            <h5><MdSupervisorAccount/> Segmentasi Audiens</h5>
             <p>
-            Advertisements are a waste of money if they are shown to the wrong people. 
-            Therefore, we will segment your audience to ensure the right ads are displayed to the 
-            right people.
+            Iklan akan membuang-buang uang jika ditampilkan kepada orang yang salah. Oleh karena itu, 
+            kami akan menyegmentasikan audiens Anda untuk memastikan iklan yang tepat ditampilkan 
+            kepada orang yang tepat.
             </p>
           </Col>
           <Col xs={12} md={4}>
-            <h5><MdTrendingUp/> Testing & Optimization</h5>
+            <h5><MdTrendingUp/> Pengujian & Optimasi</h5>
             <p>
-            Our work is never done. Once we have implemented a paid social strategy, we will test the 
-            advertisements and continue to make changes in order to optimize results.
+            Pekerjaan kami tidak selesai disitu saja. Setelah kami menerapkan strategi sosial berbayar, 
+            kami akan menguji iklan dan terus melakukan perubahan untuk mengoptimalkan hasil.
             </p>
           </Col>
         </Row>
       </Container>
       <Container>
-        <h4 style={{textAlign:'center', marginTop:'2rem'}}>Our Process</h4>
+        <h4 style={{textAlign:'center', marginTop:'2rem'}}>Proses Kami</h4>
         <Row>
           <Col xs={12} md={{span:4, offset:1}} >
             <h6>| Step 1</h6>
-            <h5>Create & Test Ads</h5>
+            <h5>Buat & Uji Iklan</h5>
             <p>
-            We will create various advertisements, testing with several messages, images, and targeting 
-            audiences. Once the ads are launched we continue optimizing them until we find the best 
-            combination. 
+            Kami akan membuat berbagai iklan, menguji dengan beberapa pesan, gambar, dan menargetkan audiens. 
+            Setelah iklan diluncurkan, kami terus mengoptimalkannya hingga kami menemukan kombinasi terbaik.
             </p>
           </Col>
           <Col xs={12} md={{span:4, offset:2}}>
             <h6>| Step 2</h6>
-            <h5>Results & Growth</h5>
+            <h5>Hasil & Pertumbuhan</h5>
             <p>
-            The optimizations we make will improve your paid social results. You will see an increase in 
-            your social media following, brand awareness, and conversions. 
-            This results in making more money.
+            Pengoptimalan yang kami lakukan akan meningkatkan hasil sosial berbayar Anda. 
+            Anda akan melihat peningkatan pengikut media sosial, kesadaran merek, dan konversi Anda. 
+            Ini menghasilkan lebih banyak uang.
             </p>
           </Col>
         </Row>
       </Container>
       <Container style={{textAlign:'center', padding:'2rem', background:'#242424'}}>
           <h5 style={{color:'#ffba00'}}>
-          116.14% more social traffic compared to last year
+          116.14% lebih banyak lalu lintas sosial dibandingkan tahun lalu
           </h5>
           <p style={{color:'#ffffff'}}>
-          “In 2018 I started with Grid Marketing in order to raise brand awareness and increase sales 
-          via Social Media Advertising. Since then I have experienced a noticeable growth within my 
-          target audience. The communication is quick and professional and during the monthly analyses 
-          due consideration is always given to my personal wishes and ideas. I would certainly 
-          recommend Grid Marketing to any company that wants to get more out of their Social 
-          Media campaigns!”
+          “Pada tahun 2018 saya memulai dengan Realine untuk meningkatkan kesadaran merek dan meningkatkan 
+          penjualan melalui Iklan Media Sosial. Sejak itu saya telah mengalami pertumbuhan yang nyata dalam 
+          audiens target saya. Komunikasi cepat dan profesional dan selama analisis bulanan pertimbangan 
+          selalu diberikan pada keinginan dan ide pribadi saya. Saya pasti akan merekomendasikan Realine 
+          kepada perusahaan mana pun yang ingin memaksimalkan kampanye Media Sosial mereka! ”
           </p>
-          <h6 style={{color:'#ffba00'}}>Eva Luna</h6>
+          <h6 style={{color:'#ffba00'}}>Ryan Angoro</h6>
           <p style={{color:'#ffba00'}}>
-          Online Health & Lifestyle Coach @ Eva Luna Lifestyle
+          Owner @ Martabak Surprice
           </p>
+      </Container>
+      <Container style={{textAlign:'center', padding:'2rem', background:'#242424', marginTop:'2rem'}}>
+            <h5 style={{color:'#ffba00', marginBottom:'2rem'}} className='dpc'>
+            Sudah menemukan apa yang anda inginkan? Dapatkan penawaran harga instan untuk Anda!
+            </h5>
+            <a href='https://wa.me/6281219013721?text=Digital+Marketing%0D%0ANama+Anda%3A+'>
+            <Button variant="warning" size='lg'>
+            DAPATKAN PENAWARAN
+            </Button></a>
       </Container>
         <Mess/>
     </Jumbotron>
