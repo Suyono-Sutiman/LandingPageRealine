@@ -9,7 +9,7 @@ const Marketing = () => (
   <Layout>
     <SEO 
     title="Social Media Marketing" 
-    description= 'Social Media Marketing, Engage with your customers and increase social media results.'/>
+    description= 'Social Media Marketing, Libatkan pelanggan Anda, saksikan pengikut sosial Anda tumbuh, dan tingkatkan hasil media sosial.'/>
     <Jumbotron fluid className="hero mar">
       <Container>
               <h1 className='dpt' >Social</h1>

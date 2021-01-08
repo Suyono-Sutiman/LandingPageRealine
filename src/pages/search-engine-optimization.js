@@ -10,7 +10,7 @@ const Seo = () => (
     <SEO 
     title="SEO" 
     description=
-    'Search Engine Optimization, SEO is more than just incorporating keywords, let us help you to optimize all SEO elements'/>
+    'Search Engine Optimization, SEO lebih dari sekadar memasukkan kata kunci, izinkan kami membantu Anda mengoptimalkan semua elemen SEO.'/>
     <Jumbotron fluid className="hero seo">
       <Container>
               <h1 className='dpt' >Search</h1>

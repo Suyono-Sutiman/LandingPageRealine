@@ -14,7 +14,7 @@ const SecondPage = () => (
   <Layout>
     <SEO 
         title="Web Development" 
-        description= 'Web Development Agency, Build a website with marketing in mind.' />
+        description= 'Web Development Agency, Bangun situs web dengan mempertimbangkan pemasaran.' />
     <Jumbotron fluid className="hero dev">
       <Container>
               <h1 className='dpt' >Web</h1>
